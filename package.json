@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "NODE_ENV=production webpack -p",
-    "start": "babel-node scripts/watch.js"
+    "start": "babel-node scripts/watch.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -64,6 +66,8 @@
     "highlight.js": "9.7.0",
     "is-url": "1.2.2",
     "normalize.css": "5.0.0",
-    "simple-fetch": "1.5.0"
-  }
+    "simple-fetch": "1.5.0",
+    "snyk": "^1.192.0"
+  },
+  "snyk": true
 }
