@@ -64,6 +64,6 @@
     "highlight.js": "9.7.0",
     "is-url": "1.2.2",
     "normalize.css": "5.0.0",
-    "simple-fetch": "1.5.0"
+    "simple-fetch": "2.0.0"
   }
 }
